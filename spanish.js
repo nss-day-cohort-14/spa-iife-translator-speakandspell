@@ -1,5 +1,5 @@
 var translateText = (function(origTranslateText) {
-	var spanishWords = {"merry": "alegre", "christmas": "navidad", "and": "y", "happy": "feliz", "new": "nuevo", "year": "año"};
+	var spanishWords = {"merry": "feliz", "christmas": "Navidad", "and": "y", "happy": "feliz", "new": "nuevo", "year": "año"};
 
 
 	var translateToSpanish = function(englishWord) {
