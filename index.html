@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SpeakAndSpell Transtlator</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>SpeakAndSpell Transtlator</h1>
+	
+	<fieldset>
+		<legend>Welcome / Bienvenue / Willkommen / Bienvenido </legend>
+
+		<h3>From English</h3>
+		<label>
+  		<input id="userInput" type="text" name="textArea" size="50" placeholder=" Please enter text to translate...">
+    </label>
+    <label>
+	  	<button id="translateButton" type="button" value="translate">Translate</button>
+    </label>
+		<hr/>
+
+		<h3>to French</h3>
+		<div id="frenchEl">
+		</div><hr/>
+		<h3>to German</h3>
+		<div id="germanEl">
+		</div><hr/>
+		<h3>to Spanish</h3>
+		<div id="spanishEl">
+		</div>
+
+	</fieldset>
+
+	<script src="translate.js"></script>
+	<script src="french.js"></script>
+	<script src="german.js"></script>
+	<script src="spanish.js"></script>
+	<script src="domHandler.js"></script>
+</body>
+</html>
