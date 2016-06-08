@@ -5,7 +5,7 @@ var textTranslator = function (french) {
      				   "happy":"bonne", 
      				   "new":"nouvel", 
      				   "year":"An" };
-     french.addText = function(input) {
+     var translateToFrench = function(input) {
      	return frenchText[input]
      };
 return french;
