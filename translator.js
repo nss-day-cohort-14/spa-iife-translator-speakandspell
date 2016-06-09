@@ -1,0 +1,6 @@
+
+var translateText = (function() {
+
+	return {};
+	
+})();
