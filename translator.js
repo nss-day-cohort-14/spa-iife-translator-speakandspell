@@ -1,0 +1,7 @@
+
+var translateText = (function() {
+
+	return {};
+
+
+})();
